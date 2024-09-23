@@ -19,7 +19,7 @@
 
 --[[
 *
-*   /switchClothe 
+*   /switchClothes 
 *
 *   Arg(s) : source - player source
 *            args - Clothe type as a string
@@ -27,9 +27,8 @@
 *   Change between variant of the selected clothe if it exists
 *
 ]]--
-RegisterCommand("switchClothe", function(source, args)
-    local ped = GetPlayerPed(-1)
+RegisterCommand("switchClothes", function(source, args)
     if (args[1] ~= nil) then 
-        trySwitchVariants(ped, args[1])
+        trySwitchVariants(GetPlayerPed(-1), args[1])
     end
 end)
