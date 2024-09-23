@@ -1,5 +1,5 @@
-# Clothe Variant
-Simple fivem clothe variant switcher in lua
+# Clothes Variant
+Simple fivem clothes variant switcher in lua
 
 ## Disclaimer/Warranty 
 CLIENTS AND USERS EXPRESSLY ACKNOWLEDGES AND AGREES THAT THE SOFTWARE IS PROVIDED "AS IS", WITH ALL FAULTS AND WITHOUT WARRANTY OF ANY KIND
